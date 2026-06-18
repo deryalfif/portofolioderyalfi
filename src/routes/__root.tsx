@@ -85,6 +85,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:site_name", content: "Deryalfi Fathudin" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Deryalfi Fathudin — Media Analyst | Data, ML, Insight" },
+      { name: "twitter:title", content: "Deryalfi Fathudin — Media Analyst | Data, ML, Insight" },
+      { name: "description", content: "Insightful Media showcases a Media Analyst's expertise in transforming media data into actionable business insights." },
+      { property: "og:description", content: "Insightful Media showcases a Media Analyst's expertise in transforming media data into actionable business insights." },
+      { name: "twitter:description", content: "Insightful Media showcases a Media Analyst's expertise in transforming media data into actionable business insights." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7419e974-8610-4a7a-a608-902e6ee91b45/id-preview-0467b030--afc363d0-c742-4f01-9745-3d427b358aa2.lovable.app-1781774050141.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7419e974-8610-4a7a-a608-902e6ee91b45/id-preview-0467b030--afc363d0-c742-4f01-9745-3d427b358aa2.lovable.app-1781774050141.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
