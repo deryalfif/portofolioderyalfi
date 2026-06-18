@@ -44,7 +44,7 @@ const expertise = [
   {
     title: "Data Engineering",
     body: "Building and optimizing data pipelines, backend integrations, and automated workflows to ensure reliable data accessibility.",
-    items: ["PYTHON", "\n", "Postgres"],
+    items: ["PYTHON", "Postgres"],
   },
   {
     title: "Data Validation",
@@ -173,15 +173,6 @@ function Home() {
               {"\n"}
             </p>
           </div>
-          <div className="tile md:col-span-5 md:p-10">
-            <p className="mono text-xs uppercase tracking-[0.2em] text-muted-foreground">Operating principles</p>
-            <ul className="mt-5 space-y-4 text-base">
-              <Principle n="01" text="Insight before models. The deliverable is a decision, not a notebook." />
-              <Principle n="02" text="Numbers over adjectives. Show the lift, not the vibe." />
-              <Principle n="03" text="Data quality is a product. Own it like one." />
-              <Principle n="04" text="Speed compounds. Reliable freshness beats clever batches." />
-            </ul>
-          </div>
         </div>
       </section>
 
@@ -269,22 +260,6 @@ function Home() {
         </div>
       </section>
 
-      {/* TESTIMONIALS */}
-      <section className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-24">
-        <SectionHeader eyebrow="07 / Testimonials" title="Words from collaborators — coming soon." />
-        <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2">
-          {[1, 2].map((i) => (
-            <div key={i} className="tile border-dashed p-10">
-              <p className="font-display text-2xl leading-snug text-muted-foreground">
-                "Recommendation forthcoming."
-              </p>
-              <p className="mono mt-6 text-xs uppercase tracking-[0.2em] text-muted-foreground">
-                Reserved · 2026
-              </p>
-            </div>
-          ))}
-        </div>
-      </section>
 
       {/* CONTACT */}
       <section id="contact" className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-24">
