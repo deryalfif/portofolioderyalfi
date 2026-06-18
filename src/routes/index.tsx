@@ -173,15 +173,6 @@ function Home() {
               {"\n"}
             </p>
           </div>
-          <div className="tile md:col-span-5 md:p-10">
-            <p className="mono text-xs uppercase tracking-[0.2em] text-muted-foreground">Operating principles</p>
-            <ul className="mt-5 space-y-4 text-base">
-              <Principle n="01" text="Insight before models. The deliverable is a decision, not a notebook." />
-              <Principle n="02" text="Numbers over adjectives. Show the lift, not the vibe." />
-              <Principle n="03" text="Data quality is a product. Own it like one." />
-              <Principle n="04" text="Speed compounds. Reliable freshness beats clever batches." />
-            </ul>
-          </div>
         </div>
       </section>
 
