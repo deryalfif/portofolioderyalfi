@@ -121,7 +121,7 @@ function Home() {
             </div>
             <div className="mt-8 inline-flex items-center gap-2 rounded-full border border-border bg-secondary/60 px-3 py-1.5 mono text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
               <span className="h-1.5 w-1.5 rounded-full bg-green-500" />
-              Open to senior analyst & media intelligence roles
+              OPEN TO DATA ANALYST & MEDIA INTELLIGENCE ROLES
             </div>
           </div>
 
