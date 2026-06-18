@@ -44,7 +44,7 @@ const expertise = [
   {
     title: "Data Engineering",
     body: "Building and optimizing data pipelines, backend integrations, and automated workflows to ensure reliable data accessibility.",
-    items: ["PYTHON", "\n", "Postgres"],
+    items: ["PYTHON", "Postgres"],
   },
   {
     title: "Data Validation",
