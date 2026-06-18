@@ -101,7 +101,7 @@ function Home() {
               into decisions.
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-              I'm Deryalfi — a Media Analyst engineering clarity from sentiment, topics and
+              I'm Deryalfi, a Media Analyst engineering clarity from sentiment, topics and
               trends across millions of articles, posts and conversations. I lean on data
               science and engineering principles, but I'm here to ship insight, not models.
             </p>
