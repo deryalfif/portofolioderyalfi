@@ -141,7 +141,7 @@ function Home() {
           </div>
 
           {/* Micro stats */}
-          <StatTile label="Now @" value="Kurasi Media" />
+          <StatTile label="Now @" value="No Limit Indonesia" />
           <StatTile label="Years in data" value="1+" />
           <StatTile label="Media items analyzed" value="5M+" />
           <StatTile label="Primary stack" value="Py · SQL · BI" />
