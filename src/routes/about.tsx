@@ -44,7 +44,7 @@ function About() {
             because contracts fail. From there I moved into{" "}
             <strong>data science</strong> (sentiment classifiers, topic models) and{" "}
             <strong>data engineering</strong> (Airflow, dbt, observability). Today I work across
-            all three as a media analyst — the model is the easy part; getting an organization to
+            all three as a media analyst, the model is the easy part; getting an organization to
             act on the signal is the work.
           </p>
           <p>
