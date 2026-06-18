@@ -43,9 +43,9 @@ export function SiteFooter() {
           </p>
         </div>
         <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
-          <a href="mailto:deryalfi@example.com" className="hover:text-foreground">Email</a>
-          <a href="https://www.linkedin.com/" className="hover:text-foreground">LinkedIn</a>
-          <a href="https://github.com/" className="hover:text-foreground">GitHub</a>
+          <a href="mailto:deryalfif@gmail.com" className="hover:text-foreground">Email</a>
+          <a href="https://www.linkedin.com/in/deryalfi-fathudin/" className="hover:text-foreground">LinkedIn</a>
+          <a href="https://github.com/deryalfif" className="hover:text-foreground">GitHub</a>
         </div>
       </div>
     </footer>
