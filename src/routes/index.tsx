@@ -54,20 +54,20 @@ const expertise = [
 ];
 
 const timeline = [
-  { year: "OCTOBER 2025 — NOW", role: "Media Analyst", org: "No Limit Indonesia",
+  { year: "OCTOBER 2025 — NOW", role: "Media Analyst", org: "Kurasi Media Nusantara",
     note: "Monitoring narratives, sentiment shifts, and topic momentum across several of sources in near real-time." },
-  { year: "FEBRUARI 2025 - MEI 2025", role: "Jr. Data Engineer", org: "Kurasi Media Nusantara",
+  { year: "FEBRUARY 2025 — MAY 2025", role: "Jr. Data Engineer", org: "No Limit Indonesia",
     note: "Building and optimizing data pipelines, backend integrations, and automated workflows to ensure reliable data accessibility." },
-  { year: "NOVEMBER 2024- FEBRUARI 2025", role: "Jr. Data Scientist", org: "Kurasi Media Nusantara",
+  { year: "NOVEMBER 2024 — FEBRUARY 2025", role: "Jr. Data Scientist", org: "No Limit Indonesia",
     note: "Developing sentiment analysis models and automated topic clustering solutions to transform unstructured data into actionable insights." },
-  { year: "APRIL 2024 - NOVEMBER 2024", role: "Data Validator", org: "No Limit Indonesia",
+  { year: "APRIL 2024 — NOVEMBER 2024", role: "Data Validator", org: "No Limit Indonesia",
     note: "Ensuring data quality, sentiment accuracy, and classification consistency across large-scale datasets for analytics and machine learning." },
 ];
 
 const skills = [
-  { group: "Languages", items: ["Python", "SQL", ""] },
-  { group: "ML / NLP", items: ["", "scikit-learn", "Transformers", "BERTopic", "", "HDBSCAN"] },
-  { group: "Data Eng.", items: ["Airflow", "dbt", "PostgreSQL", "", "Docker"] },
+  { group: "Languages", items: ["Python", "SQL"] },
+  { group: "ML / NLP", items: ["scikit-learn", "Transformers", "BERTopic", "HDBSCAN"] },
+  { group: "Data Eng.", items: ["Airflow", "dbt", "PostgreSQL", "Docker"] },
   { group: "Viz / BI", items: ["Power BI", "DAX", "Excel"] },
   { group: "Domain", items: ["Media Monitoring", "Sentiment", "Topic Modeling", "Reporting"] },
 ];
@@ -113,7 +113,7 @@ function Home() {
                 See selected work <span aria-hidden>→</span>
               </a>
               <a
-                href="/resume.pdf"
+                href="/CV%20Deryalfi%20Fathudin.pdf"
                 className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-5 py-3 text-sm font-medium transition hover:bg-secondary"
               >
                 Download CV
@@ -141,7 +141,7 @@ function Home() {
           </div>
 
           {/* Micro stats */}
-          <StatTile label="Now @" value="No Limit Indonesia" />
+          <StatTile label="Now @" value="Kurasi Media Nusantara" />
           <StatTile label="Years in data" value="1+" />
           <StatTile label="Media items analyzed" value="5M+" />
           <StatTile label="Primary stack" value="Py · SQL · BI" />
@@ -265,7 +265,7 @@ function Home() {
       <section id="contact" className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-24">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-12">
           <div className="tile bg-foreground text-background md:col-span-7 md:p-12">
-            <p className="mono text-xs uppercase tracking-[0.2em] text-background/60">08 / Contact</p>
+            <p className="mono text-xs uppercase tracking-[0.2em] text-background/60">07 / Contact</p>
             <h2 className="mt-4 font-display text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
               Have a media or data
               <br />
@@ -294,7 +294,7 @@ function Home() {
             <ContactLink label="Email" value="deryalfif@gmail.com" href="mailto:deryalfif@gmail.com" />
             <ContactLink label="LinkedIn" value="https://www.linkedin.com/in/deryalfi-fathudin/" href="https://www.linkedin.com/in/deryalfi-fathudin/" />
             <ContactLink label="GitHub" value="@deryalfif" href="https://github.com/deryalfif" />
-            <ContactLink label="Resume" value="Download PDF" href="/resume.pdf" />
+            <ContactLink label="Resume" value="Download PDF" href="/CV%20Deryalfi%20Fathudin.pdf" />
           </div>
         </div>
       </section>
@@ -326,14 +326,7 @@ function StatTile({ label, value }: { label: string; value: string }) {
   );
 }
 
-function Principle({ n, text }: { n: string; text: string }) {
-  return (
-    <li className="grid grid-cols-[auto_minmax(0,1fr)] items-baseline gap-4">
-      <span className="mono text-xs text-muted-foreground">{n}</span>
-      <span>{text}</span>
-    </li>
-  );
-}
+
 
 function ProjectCard({
   project,
@@ -394,8 +387,9 @@ function ProjectCard({
 }
 
 function ContactLink({ label, value, href }: { label: string; value: string; href: string }) {
+  const isExternal = href.startsWith("http");
   return (
-    <a href={href} className="tile tile-hover flex items-center justify-between">
+    <a href={href} {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})} className="tile tile-hover flex items-center justify-between">
       <div>
         <p className="mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground">{label}</p>
         <p className="mt-1 font-display text-lg">{value}</p>

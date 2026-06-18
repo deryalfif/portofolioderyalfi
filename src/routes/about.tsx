@@ -61,7 +61,7 @@ function About() {
             Get in touch →
           </Link>
           <a
-            href="/resume.pdf"
+            href="/CV%20Deryalfi%20Fathudin.pdf"
             className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-5 py-3 text-sm font-medium hover:bg-secondary"
           >
             Download CV
