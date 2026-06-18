@@ -38,7 +38,7 @@ const expertise = [
   },
   {
     title: "Data Science",
-    body: "Practical ML for messy text — fine-tuned IndoBERT, BERTopic pipelines, and feedback loops that keep models honest.",
+    body: "Developing sentiment analysis models and automated topic clustering solutions to transform unstructured data into actionable insights.",
     items: ["NLP", "Classification", "Active Learning"],
   },
   {
@@ -54,20 +54,20 @@ const expertise = [
 ];
 
 const timeline = [
-  { year: "2025 — Now", role: "Media Analyst", org: "PT Kurasi Media Nusantara",
-    note: "Lead media intelligence — sentiment, topic clustering, executive reporting." },
-  { year: "2024", role: "Jr. Data Engineer", org: "PT Kurasi Media Nusantara",
+  { year: "OCTOBER 2025 — NOW", role: "Media Analyst", org: "No Limit Indonesia",
+    note: "Monitoring narratives, sentiment shifts, and topic momentum across several of sources in near real-time." },
+  { year: "FEBRUARI 2025 - MEI 2025", role: "Jr. Data Engineer", org: "No Limit Indonesia",
     note: "Built the real-time monitoring pipeline (sub-15min latency) and validation framework." },
-  { year: "2023", role: "Jr. Data Scientist", org: "Earlier engagement",
-    note: "Shipped first IndoBERT sentiment classifier and BERTopic clustering for 1.2M articles." },
-  { year: "2022", role: "Data Validator", org: "Earlier engagement",
-    note: "Started in data quality — learned that good data is a contract, not a checkbox." },
+  { year: "@deryalfif", role: "Jr. Data Scientist", org: "No Limit Indonesia",
+    note: "Developing sentiment analysis models and automated topic clustering solutions to transform unstructured data into actionable insights." },
+  { year: "APRIL 2024 - NOVEMBER 2024", role: "Data Validator", org: "No Limit Indonesia",
+    note: "Ensuring data quality, sentiment accuracy, and classification consistency across large-scale datasets for analytics and machine learning." },
 ];
 
 const skills = [
-  { group: "Languages", items: ["Python", "SQL", "DAX"] },
-  { group: "ML / NLP", items: ["PyTorch", "scikit-learn", "Transformers", "BERTopic", "UMAP", "HDBSCAN"] },
-  { group: "Data Eng.", items: ["Airflow", "dbt", "PostgreSQL", "Great Expectations", "Docker"] },
+  { group: "Languages", items: ["Python", "SQL", ""] },
+  { group: "ML / NLP", items: ["", "scikit-learn", "Transformers", "BERTopic", "", "HDBSCAN"] },
+  { group: "Data Eng.", items: ["Airflow", "dbt", "PostgreSQL", "", "Docker"] },
   { group: "Viz / BI", items: ["Power BI", "DAX", "Excel"] },
   { group: "Domain", items: ["Media Monitoring", "Sentiment", "Topic Modeling", "Reporting"] },
 ];
