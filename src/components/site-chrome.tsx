@@ -23,7 +23,10 @@ export function SiteNav() {
         </nav>
         <div className="flex items-center gap-3">
           <a
-            href="/CV%20Deryalfi%20Fathudin.pdf"
+            href="/CV_Deryalfi_Fathudin.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
             className="inline-flex items-center gap-1.5 rounded-full bg-foreground px-4 py-2 text-xs font-medium text-background transition hover:opacity-90 sm:text-sm"
           >
             <span className="mono">CV</span>

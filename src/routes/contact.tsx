@@ -37,7 +37,13 @@ function Contact() {
           <ContactTile label="Email" value="deryalfif@gmail.com" href="mailto:deryalfif@gmail.com" />
           <ContactTile label="LinkedIn" value="linkedin.com/in/deryalfi-fathudin" href="https://www.linkedin.com/in/deryalfi-fathudin/" />
           <ContactTile label="GitHub" value="github.com/deryalfif" href="https://github.com/deryalfif" />
-          <ContactTile label="Resume" value="Download PDF" href="/CV%20Deryalfi%20Fathudin.pdf" />
+          <ContactTile
+            label="Resume"
+            value="Download PDF"
+            href="/CV_Deryalfi_Fathudin.pdf"
+            download
+            target="_blank"
+          />
         </div>
 
         <form
@@ -87,10 +93,31 @@ function Field({ label, name, type = "text" }: { label: string; name: string; ty
   );
 }
 
-function ContactTile({ label, value, href }: { label: string; value: string; href: string }) {
+function ContactTile({
+  label,
+  value,
+  href,
+  download,
+  target,
+}: {
+  label: string;
+  value: string;
+  href: string;
+  download?: boolean | string;
+  target?: string;
+}) {
   const isExternal = href.startsWith("http");
+  const finalTarget = target || (isExternal ? "_blank" : undefined);
+  const finalRel = isExternal || finalTarget === "_blank" ? "noopener noreferrer" : undefined;
+
   return (
-    <a href={href} {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})} className="tile tile-hover flex items-center justify-between">
+    <a
+      href={href}
+      target={finalTarget}
+      rel={finalRel}
+      download={download}
+      className="tile tile-hover flex items-center justify-between"
+    >
       <div className="min-w-0">
         <p className="mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground">{label}</p>
         <p className="mt-1 truncate font-display text-lg">{value}</p>

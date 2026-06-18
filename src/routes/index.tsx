@@ -113,7 +113,10 @@ function Home() {
                 See selected work <span aria-hidden>→</span>
               </a>
               <a
-                href="/CV%20Deryalfi%20Fathudin.pdf"
+                href="/CV_Deryalfi_Fathudin.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                download
                 className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-5 py-3 text-sm font-medium transition hover:bg-secondary"
               >
                 Download CV
@@ -294,7 +297,13 @@ function Home() {
             <ContactLink label="Email" value="deryalfif@gmail.com" href="mailto:deryalfif@gmail.com" />
             <ContactLink label="LinkedIn" value="https://www.linkedin.com/in/deryalfi-fathudin/" href="https://www.linkedin.com/in/deryalfi-fathudin/" />
             <ContactLink label="GitHub" value="@deryalfif" href="https://github.com/deryalfif" />
-            <ContactLink label="Resume" value="Download PDF" href="/CV%20Deryalfi%20Fathudin.pdf" />
+            <ContactLink
+              label="Resume"
+              value="Download PDF"
+              href="/CV_Deryalfi_Fathudin.pdf"
+              download
+              target="_blank"
+            />
           </div>
         </div>
       </section>
@@ -386,10 +395,31 @@ function ProjectCard({
   );
 }
 
-function ContactLink({ label, value, href }: { label: string; value: string; href: string }) {
+function ContactLink({
+  label,
+  value,
+  href,
+  download,
+  target,
+}: {
+  label: string;
+  value: string;
+  href: string;
+  download?: boolean | string;
+  target?: string;
+}) {
   const isExternal = href.startsWith("http");
+  const finalTarget = target || (isExternal ? "_blank" : undefined);
+  const finalRel = isExternal || finalTarget === "_blank" ? "noopener noreferrer" : undefined;
+
   return (
-    <a href={href} {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})} className="tile tile-hover flex items-center justify-between">
+    <a
+      href={href}
+      target={finalTarget}
+      rel={finalRel}
+      download={download}
+      className="tile tile-hover flex items-center justify-between"
+    >
       <div>
         <p className="mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground">{label}</p>
         <p className="mt-1 font-display text-lg">{value}</p>
