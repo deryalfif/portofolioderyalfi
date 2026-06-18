@@ -272,12 +272,12 @@ function Home() {
               problem worth solving?
             </h2>
             <p className="mt-5 max-w-md text-background/70">
-              I'm open to senior analyst, media intelligence and applied-NLP roles — plus selective
+              I'm open to data analyst, media intelligence and applied-NLP roles — plus selective
               freelance engagements.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
-                href="mailto:deryalfi@example.com"
+                href="mailto:deryalfif@gmail.com"
                 className="inline-flex items-center gap-2 rounded-full bg-[var(--yellow)] px-5 py-3 text-sm font-medium text-foreground hover:opacity-90"
               >
                 Email me →
@@ -291,9 +291,9 @@ function Home() {
             </div>
           </div>
           <div className="grid grid-cols-1 gap-4 md:col-span-5">
-            <ContactLink label="Email" value="deryalfi@example.com" href="mailto:deryalfi@example.com" />
-            <ContactLink label="LinkedIn" value="/in/deryalfi" href="https://linkedin.com/" />
-            <ContactLink label="GitHub" value="@deryalfi" href="https://github.com/" />
+            <ContactLink label="Email" value="deryalfif@gmail.com" href="mailto:deryalfif@gmail.com" />
+            <ContactLink label="LinkedIn" value="https://www.linkedin.com/in/deryalfi-fathudin/" href="https://www.linkedin.com/in/deryalfi-fathudin/" />
+            <ContactLink label="GitHub" value="@deryalfif" href="https://github.com/deryalfif" />
             <ContactLink label="Resume" value="Download PDF" href="/resume.pdf" />
           </div>
         </div>
