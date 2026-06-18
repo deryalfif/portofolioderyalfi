@@ -33,7 +33,7 @@ const marqueeItems = [
 const expertise = [
   {
     title: "Media Analytics",
-    body: "Monitoring narratives, sentiment shifts, and topic momentum across hundreds of sources in near real-time.",
+    body: "Monitoring narratives, sentiment shifts, and topic momentum across several of sources in near real-time.",
     items: ["Media Monitoring", "Sentiment Analysis", "Topic Clustering"],
   },
   {
@@ -43,13 +43,13 @@ const expertise = [
   },
   {
     title: "Data Engineering",
-    body: "Pipelines that wake up before the team does — Airflow orchestration, dbt models, contract-driven ingest.",
-    items: ["Airflow", "dbt", "Postgres"],
+    body: "Building and optimizing data pipelines, backend integrations, and automated workflows to ensure reliable data accessibility.",
+    items: ["PYTHON", "\n", "Postgres"],
   },
   {
-    title: "Data Quality",
-    body: "Validation as a product, not a script. Expectations co-owned with the analysts who actually feel the failures.",
-    items: ["Great Expectations", "Observability", "Triage"],
+    title: "Data Validation",
+    body: "Ensuring data quality, sentiment accuracy, and classification consistency across large-scale datasets for analytics and machine learning.",
+    items: ["MS. EXCEL", "GOOGLE SHEETS", "CONSISTENCY"],
   },
 ];
 
@@ -142,7 +142,7 @@ function Home() {
 
           {/* Micro stats */}
           <StatTile label="Now @" value="Kurasi Media" />
-          <StatTile label="Years in data" value="4+" />
+          <StatTile label="Years in data" value="1+" />
           <StatTile label="Media items analyzed" value="5M+" />
           <StatTile label="Primary stack" value="Py · SQL · BI" />
         </div>
@@ -167,12 +167,10 @@ function Home() {
             <p className="text-lg leading-relaxed text-foreground/85">
               I started in <span className="underline decoration-[var(--yellow)] decoration-4 underline-offset-4">data validation</span>,
               learning that "good data" is a contract you keep with the next person down the pipe. From there I moved into
-              data science and engineering, and today I lead media analytics at Kurasi Media Nusantara.
+              data science and engineering, and today I work as Media Analytics.
             </p>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-              My law background taught me to argue from evidence. My data work taught me to build the evidence. The
-              combination is why I'm comfortable in a room with PR leads, engineers and analysts — translating between
-              "what does this trend mean?" and "what does this query return?"
+              {"\n"}
             </p>
           </div>
           <div className="tile md:col-span-5 md:p-10">
