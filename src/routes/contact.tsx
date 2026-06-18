@@ -29,7 +29,7 @@ function Contact() {
           <br /> data, or both.
         </h1>
         <p className="mt-6 max-w-xl text-lg text-muted-foreground">
-          Quickest path: email. For roles, mention the team and what you're trying to learn — I
+          Quickest path: email. For roles, mention the team and what you're trying to learn, I
           reply faster to specific notes than to generic outreach.
         </p>
 
