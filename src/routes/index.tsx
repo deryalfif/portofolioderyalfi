@@ -73,10 +73,10 @@ const skills = [
 ];
 
 const certs = [
-  "Data Analyst — Coursera",
-  "Microsoft Power BI Data Analyst",
-  "Machine Learning Specialization",
-  "SQL for Data Analysis",
+  "Microsoft Certified: Azure AI Fundamentals",
+  "Business Intelligence Analyst Project Based Internship Program",
+  "Data Analysis: Full Stack Intensive Bootcamp",
+  "Bootcamp: Fast Track Data Engineer Scholarship",
 ];
 
 function Home() {
