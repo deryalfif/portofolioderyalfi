@@ -56,9 +56,9 @@ const expertise = [
 const timeline = [
   { year: "OCTOBER 2025 — NOW", role: "Media Analyst", org: "No Limit Indonesia",
     note: "Monitoring narratives, sentiment shifts, and topic momentum across several of sources in near real-time." },
-  { year: "FEBRUARI 2025 - MEI 2025", role: "Jr. Data Engineer", org: "No Limit Indonesia",
-    note: "Built the real-time monitoring pipeline (sub-15min latency) and validation framework." },
-  { year: "NOVEMBER 2024- FEBRUARI 2025", role: "Jr. Data Scientist", org: "No Limit Indonesia",
+  { year: "FEBRUARI 2025 - MEI 2025", role: "Jr. Data Engineer", org: "Kurasi Media Nusantara",
+    note: "Building and optimizing data pipelines, backend integrations, and automated workflows to ensure reliable data accessibility." },
+  { year: "NOVEMBER 2024- FEBRUARI 2025", role: "Jr. Data Scientist", org: "Kurasi Media Nusantara",
     note: "Developing sentiment analysis models and automated topic clustering solutions to transform unstructured data into actionable insights." },
   { year: "APRIL 2024 - NOVEMBER 2024", role: "Data Validator", org: "No Limit Indonesia",
     note: "Ensuring data quality, sentiment accuracy, and classification consistency across large-scale datasets for analytics and machine learning." },
