@@ -34,14 +34,14 @@ function Contact() {
         </p>
 
         <div className="mt-12 grid grid-cols-1 gap-4 md:grid-cols-2">
-          <ContactTile label="Email" value="deryalfi@example.com" href="mailto:deryalfi@example.com" />
-          <ContactTile label="LinkedIn" value="linkedin.com/in/deryalfi" href="https://linkedin.com/" />
-          <ContactTile label="GitHub" value="github.com/deryalfi" href="https://github.com/" />
+          <ContactTile label="Email" value="deryalfif@gmail.com" href="mailto:deryalfif@gmail.com" />
+          <ContactTile label="LinkedIn" value="linkedin.com/in/deryalfi-fathudin" href="https://www.linkedin.com/in/deryalfi-fathudin/" />
+          <ContactTile label="GitHub" value="github.com/deryalfif" href="https://github.com/deryalfif" />
           <ContactTile label="Resume" value="resume.pdf" href="/resume.pdf" />
         </div>
 
         <form
-          action="mailto:deryalfi@example.com"
+          action="mailto:deryalfif@gmail.com"
           method="post"
           encType="text/plain"
           className="mt-12 tile p-8 sm:p-10"
