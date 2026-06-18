@@ -30,8 +30,8 @@ function About() {
         <div className="prose prose-neutral mt-10 max-w-none space-y-6 text-lg leading-relaxed text-foreground/85">
           <p>
             I'm Deryalfi Fathudin, a Media Analyst at PT Kurasi Media Nusantara. My job is to turn
-            very large volumes of media — news, social posts, broadcasts — into something a
-            leadership team can actually decide on by 9am.
+            very large volumes of media; news, social posts, broadcasts into something a
+            leadership team can actually decide on.
           </p>
           <p>
             My route here was not the obvious one. I trained as a lawyer (Bachelor of Sharia
