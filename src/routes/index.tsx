@@ -260,22 +260,6 @@ function Home() {
         </div>
       </section>
 
-      {/* TESTIMONIALS */}
-      <section className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-24">
-        <SectionHeader eyebrow="07 / Testimonials" title="Words from collaborators — coming soon." />
-        <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2">
-          {[1, 2].map((i) => (
-            <div key={i} className="tile border-dashed p-10">
-              <p className="font-display text-2xl leading-snug text-muted-foreground">
-                "Recommendation forthcoming."
-              </p>
-              <p className="mono mt-6 text-xs uppercase tracking-[0.2em] text-muted-foreground">
-                Reserved · 2026
-              </p>
-            </div>
-          ))}
-        </div>
-      </section>
 
       {/* CONTACT */}
       <section id="contact" className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-24">
